@@ -1,0 +1,49 @@
+{
+  "name": "Chatgram - Real-Time Messaging",
+  "short_name": "Chatgram",
+  "description": "Professional real-time messaging platform with voice calling and cloud media",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#9333ea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["social", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "url": "/chat/new",
+      "description": "Start a new conversation"
+    },
+    {
+      "name": "Search",
+      "url": "/search",
+      "description": "Search messages and users"
+    }
+  ]
+}
